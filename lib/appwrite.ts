@@ -76,7 +76,7 @@ export async function logout() {
   }
 }
 
-export async function getUser() {
+export async function getCurrentUser() {
   try {
     // Get the current user account details and avatar
     const response = await account.get();
