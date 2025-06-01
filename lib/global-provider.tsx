@@ -10,7 +10,7 @@ interface GlobalContextType {
   refetch: () => void;
 }
 
-export interface User {
+interface User {
   $id: string;
   name: string;
   email: string;
